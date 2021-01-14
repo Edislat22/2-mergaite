@@ -1,16 +1,46 @@
-div {
+body > div {
     display: inline-block;
     width: 700px;
     margin-left: calc((100% - 700px) / 2 );
-    background-color: coral;
+    background-color: rgb(178, 245, 250)
 }
 
-header {
+div > header {
     display: inline-block;
     width: 100%;  
 }
 
-main {
+header > img {
+    display: inline-block;
+    float: left;   
+}
+
+header > nav {
+    display: inline-block;
+    float: right;
+}
+
+nav > a {
+    display: inline-block;
+}
+
+div > main {
     display: inline-block;
     width: 100%;  
+}
+
+main > div {
+    display: inline-block;
+}
+
+div > h1 {
+    display: inline-block;
+}
+
+div > p {
+    display: inline-block;
+}
+
+main > img {
+    display: inline-block;
 }
